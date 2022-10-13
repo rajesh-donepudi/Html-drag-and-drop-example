@@ -1,5 +1,4 @@
 .main {
-  background-color: wheat;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -10,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .main > div {
