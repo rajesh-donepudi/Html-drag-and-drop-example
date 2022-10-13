@@ -1,0 +1,56 @@
+.main {
+  background-color: wheat;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.main > div {
+  width: auto;
+  background-color: whitesmoke;
+  width: 500px;
+}
+
+.main:first-child {
+  background-color: aqua;
+}
+
+.dragable-elements-container {
+  border: 1px solid;
+  padding: 1rem;
+}
+
+.dragable-elements-container > p {
+  height: 45px;
+  font-weight: bold;
+  color: grey;
+}
+
+.droppable-container {
+  width: 400px;
+  padding: 1rem;
+  border: 1px solid;
+}
+
+.draggable-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+.draggable-field-drag-effect {
+  border: 1px solid orange;
+}
+
+.draggable-field-drop-effect {
+  border: 1px solid green;
+}
